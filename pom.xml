@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.restlet.dhc</groupId>
-    <artifactId>projectdeprueba</artifactId>
+    <artifactId>escenario_para_ver_postulaciones_a_un_aviso</artifactId>
     <version>1.0.0</version>
     <build>
         <plugins>
@@ -16,8 +16,8 @@
                             <goal>test</goal>
                         </goals>
                         <configuration>
-                          <file>ProjectDePrueba.json</file>
-                          <selectedContext></selectedContext>
+                          <file>Escenario_para_ver_postulaciones_a_un_aviso.json</file>
+                          <selectedContext>bm-sandbox</selectedContext>
                           <licenseKey></licenseKey>
                         </configuration>
                     </execution>
